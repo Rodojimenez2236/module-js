@@ -59,7 +59,7 @@ let text = prompt ('type to a string of two words');
 // 5. cambiar frase a minusculas
 // 5. hacer conteo de palabra solicitada en frase 
 // 6. mostrar coincidencias
-
+/*
 let frase = prompt("Ingrese frase solicitada")
 let palabra = prompt("Ingrese palabra que desea buscar")
 
@@ -101,9 +101,65 @@ let number1 = parseInt(prompt("ingresa el valor de numero 1"))
 let number2 = parseInt(prompt("ingresa el valor de numero 2")) //convertir de string a un numero entero
 
 operation(numero1, number2, operationChoiced)
+*/
+
 
 /*
 Deducir:
 input:"kodemia"
 output: 
 */
+
+/*Ejercicios */
+/*
+Deducir:
+input: "kodemia"
+output: "aimedok"
+*/
+/*
+let kodemia = prompt("type kodemia");
+
+console.log(kodemia)
+*/
+/*
+let str = prompt ("give me a large string")
+let lengthStr = str.length
+
+let result = ""
+
+for (let index = 0; index < lengthStr; index++) {
+    if (index % 2 === 0) { //chek if Par
+        result += str.charAt(index).toUpperCase ()
+    } else {
+        result += str.charAt (index).toLocaleLowerCase ()
+    }
+}
+
+console.log ('Input: ', str)
+console.log ('Output: ', result)
+*/
+
+
+//Ejercicio 2:
+
+/*
+let number = prompt("type a number between 1 and 10")
+let result = ""
+
+
+for (let index = 1; index <= 10; index ++) {
+    result = `${index} * ${number} = ${index * number}`
+    console.log(result)
+}
+*/
+
+//Ejercicio 5:
+
+let number = prompt("*")
+let result = ""
+
+
+for (let index = 1; index <= 10; index ++) {
+    result = index * number
+    console.log(result)
+}
