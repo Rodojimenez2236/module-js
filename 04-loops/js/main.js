@@ -140,6 +140,33 @@ console.log ('Output: ', result)
 */
 
 
+/*
+//Ejercicio 5:
+
+let number = prompt("*")
+let result = ""
+
+
+for (let index = 1; index <= 10; index ++) {
+    result = index * number
+    console.log(result)
+}
+*/
+/*
+ejercico 1
+
+let strReverse = prompt("type a word")
+
+let strLenth = strReverse.length
+let result = ""
+
+for (let index = (strLenth-1); index >= 0; index --) {
+    result += strReverse.charAt(index)
+}
+
+console.log (result)
+*/
+
 //Ejercicio 2:
 
 /*
@@ -153,13 +180,7 @@ for (let index = 1; index <= 10; index ++) {
 }
 */
 
-//Ejercicio 5:
+let name = "Fernanda"
 
-let number = prompt("*")
-let result = ""
-
-
-for (let index = 1; index <= 10; index ++) {
-    result = index * number
-    console.log(result)
-}
+console.log (name.substring (3,6))
+console.log (name.slice (5,7))
