@@ -100,6 +100,15 @@ output:
 // use for until the number specified
 
 
+let n = prompt('how many names would you like to input')
+
+for (let i=4; i=n; i ++) {
+    let name= ('type koders name')
+    arrayKoderNames.push[name]
+    console.log(arrayKoderNames)
+}
+
+console.log(arrayKoderNames)
 
 let arrayKoderNames = [
 ]
@@ -110,6 +119,6 @@ let arrayKoderNames = [
 //arrayKoderNames.push =
 
 
-for (let i = 0; i < arrayKoderNames.length; i++) {
-    console.log (`koder ${i + 1} ${arrayKoderNames[i]}`)
-}
+
+
+
