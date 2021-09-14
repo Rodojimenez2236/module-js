@@ -202,17 +202,17 @@ console.log( '')*/
 
 
 
-let weight = prompt(`what is your weight in lbs.`)
+// let weight = prompt(`what is your weight in lbs.`)
 
-weight = Number(weight)
+// weight = Number(weight)
 
-let resultadoMoon = weight * .165
-let resultadoMars = (weight / 9.81) * 3.711
-let resultadoJupiter = (weight / 9.81) * 24.79
+// let resultadoMoon = weight * .165
+// let resultadoMars = (weight / 9.81) * 3.711
+// let resultadoJupiter = (weight / 9.81) * 24.79
 
-console.log(resultadoMoon)
-console.log(resultadoMars)
-console.log(resultadoJupiter)
+// console.log(resultadoMoon)
+// console.log(resultadoMars)
+// console.log(resultadoJupiter)
 
 /*let edad = 24
 
@@ -240,29 +240,95 @@ sabado - 6
 
 */
 
-let today = 2
+// let today = 2
 
-switch(today) {
-    case 0:
-        console.log("Domingo")
-        break;
-    case 1:
-        console.log("Lunes")
-        break;
-    case 2:
-        console.log("Martes")
-        break;
-    case 3:
-        console.log("Miercoles")
-        break;
-    case 4:
-        console.log("Jueves")
-        break;
-    case 5:
-        console.log("Viernes")
-        break;
-    case 6:
-        console.log("Sabado")
-        break;
+// switch(today) {
+//     case 0:
+//         console.log("Domingo")
+//         break;
+//     case 1:
+//         console.log("Lunes")
+//         break;
+//     case 2:
+//         console.log("Martes")
+//         break;
+//     case 3:
+//         console.log("Miercoles")
+//         break;
+//     case 4:
+//         console.log("Jueves")
+//         break;
+//     case 5:
+//         console.log("Viernes")
+//         break;
+//     case 6:
+//         console.log("Sabado")
+//         break;
+// }
+
+//--------------------------------------------------------
+
+/*
+Ejercicio 1:
+    Solicitar al usuario su nombre y sus apellidos
+    regresar en una sola cadena donde el nombre sea minusculas y los apellidos sean mayusculas
+    input nombre = "Fernanda"
+    input Apellido = "Palacios Vera"
+    Output: "fernanda PALACIOS VERA"
+*/
+
+// let firstName = prompt (`type your first name`)
+// let lastName=prompt(`type your last name`)
+
+// console.log(firstName.toLowerCase()+" "+lastName.toUpperCase())
+
+// let name1= firstName.toLowerCase()
+// let name2= lastName.toUpperCase()
+
+// console.log(name1+" "+name2)
+
+/*
+Ejercicio 2:
+    Solicitar el nombre completo de un usuario e indicarle cuantos caracteres tiene su nombre
+*/
+
+let fullName=prompt(`type your full name`)
+let splitName=fullName.split(" ")
+
+function namelength(sting) {
+    for(let i=0; i<splitName.length; i++) {
+
+    }
 }
 
+console.log(splitName)
+
+//console.log(`your name`+ " "+fullName+" "+`has`+" "+fullNameLength+" "+`charaters`)
+
+/*
+Ejercicio 3:
+    Solicitar el nombre completo a un usuario e indicarle cuantas vocales tiene.
+*/
+/*
+Ejercicio 4:
+    Del texto: 
+    "Cada estudiante tiene su ritmo, cada estudiante tiene su talento, y cada estudiante complementa 
+    al estudiante que tiene a su lado"
+    - Contar cuántas veces se usa la palabra "estudiante" y reemplazar todas las coincidencias 
+        por la palabra "Koder", 
+    - y mostrar el mensaje de nuevo al usuario
+*/
+
+
+/*
+Ejercicio 5:
+    Comparar 2 string, y determinar cual de los dos es el más largo
+    input: "string 1", "Some large string"
+    Output: "el string {string 1} es el más largo"
+*/
+/*
+Ejercicio 6:
+    Dado un string de dos palabras realizar una función que devuelva la palabra más larga
+    input: 'Programación Javascript'
+    Output: 'Programación'
+*/

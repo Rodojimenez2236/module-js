@@ -134,3 +134,10 @@ const multiplicacion = (a, b) => a* b
 
 const resultMulti = multiplicacion(10, 2)
 console.log(resultMulti)
+
+/*
+ejercicio-
+-Funcion que me regrese un nemero alteatorio desde 0 hasta array.length
+
+-Funcion que reciba el indice para imprimir el nombre
+*/
