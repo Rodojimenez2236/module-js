@@ -17,7 +17,7 @@ Ejercicio 1:
 // .toLocaleLowerCase() changes all string atached to lower case letters
 // .toLocaleUpperCase() changes all string atached to upper case letters
 
-// console.log (firstName1.toLocaleLowerCase() + " " + lastName1.toLocaleUpperCase());
+//console.log (firstName1.toLocaleLowerCase() + " " + lastName1.toLocaleUpperCase());
 
 
 console.log('----------Excersice 2----------')
@@ -30,8 +30,9 @@ Ejercicio 2:
 // let subtractSpaces = fullName.split(" ").length -1;
 // let fullNameNoSpaces = fullName.length - subtractSpaces
 
+// console.log(subtractSpaces)
 // console.log(`your name` + " " + fullName + " " + `has` +
-// " " + fullNameNoSpaces + " " + `characters`);
+//  " " + fullNameNoSpaces + " " + `characters`);
 
 // .split(separator, limit) is a method that splits strings using 
 //  a seperator and or limit 
@@ -42,6 +43,20 @@ console.log('----------Excersice 3----------')
 Ejercicio 3:
     Solicitar el nombre completo a un usuario e indicarle cuantas vocales tiene.
 */
+
+// let fullName = prompt (`type your full name`);
+
+// function countVowels (str) {
+//     // find the count of vowels
+//     let count = str.match(/[aeiou]/gi).length;
+//     // retun number of vowels
+//     return count;
+// }
+
+// let result = countVowels(fullName);
+// console.log(`your name` + " " + fullName + " " + `has` +
+// " " + result + " " + `vowels`);
+
 
 
 console.log('----------Excersice 4----------')
@@ -54,6 +69,23 @@ Ejercicio 4:
         por la palabra "Koder", 
     - y mostrar el mensaje de nuevo al usuario
 */
+
+// let text = `"Cada estudiante tiene su ritmo, cada estudiante tiene su talento, y cada estudiante complementa 
+// al estudiante que tiene a su lado"`;
+
+// function countWord (str) {
+//     // count how many times "estudiante" appears in the string
+//     let count = str.match(/estudiante/g).length;
+//     return count;
+// } 
+
+// let result = countWord(text);
+// newText = text.replace(/estudiante/g, "koder");
+
+// console.log(`in the text` + " " + text + " " + `the word "estudiante" appearse` +
+// " " + result + " " + `times`);
+// console.log(`---replace the word estudiante for koder---`);
+// console.log(newText);
 
 
 console.log('----------Excersice 5----------')
