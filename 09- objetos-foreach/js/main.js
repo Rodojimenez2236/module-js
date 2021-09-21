@@ -321,3 +321,13 @@ console.log(avgSignatures)
 const getAvgForMentor = scoresArray => {
     let accumMentor =
 }
+let namesArray = [
+    "Elias",
+    "Pao",
+    "Pablo",
+    "Nancy"
+]
+
+namesArray.forEach((name, index) => {
+    console.log(`el nombre es: ${name} in la posicion ${index}`)
+})
