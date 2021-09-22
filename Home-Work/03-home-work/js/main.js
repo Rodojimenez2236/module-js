@@ -96,6 +96,16 @@ Ejercicio 5:
     Output: "el string {string 1} es el más largo"
 */
 
+let string1 = prompt(`input first string`);
+let string2 = prompt(`input second string`);
+
+if (string1 > string2) {
+    console.log(`string 1 is longer than string 2`);
+}
+    els {
+    console.log(`string 2 is longer than string 1`);
+}
+
 
 console.log('----------Excersice 6----------')
 /*
