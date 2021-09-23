@@ -22,12 +22,14 @@ console.log(name)
 // Aritmeticos
 
 /*
-    +
-    -
-    *
-    /
-    %
-    ()
+    + (additon)
+    - (subtraction)
+    * (multiplication)
+    ** (exponetiation)
+    / (division)
+    % (Remainder)
+    ++ (increment)
+    -- (decrement)
 */
 
 let operation = 5 + (5 - 10) * 3
