@@ -43,24 +43,24 @@ pedir al usuario dos letras, y determinar si la primera aparece antes o despues
 en el alfabeto
 */
 
-let letter1 = prompt(`type in a letter`)
-let letter2 = prompt(`type in a second letter`)
-console.log(`the two letters you chose were` + " " + letter1 + " " + "and" + 
-" " + letter2)
+// let letter1 = prompt(`type in a letter`)
+// let letter2 = prompt(`type in a second letter`)
+// console.log(`the two letters you chose were` + " " + letter1 + " " + "and" + 
+// " " + letter2)
 
 // .charCodeAt gives the number value in the UTF (ASCII) Table
 // .charCodeAt(index in string)
-firstLetter = letter1.toLocaleLowerCase().charCodeAt(0) - 96
-secondLetter = letter2.toLocaleLowerCase().charCodeAt(0) - 96
+// firstLetter = letter1.toLocaleLowerCase().charCodeAt(0) - 96
+// secondLetter = letter2.toLocaleLowerCase().charCodeAt(0) - 96
 
 // ternary operator: short way to write a simple if els block
 // ternary operator: variable_name(conition) ? value_if_true : value_if_false
-function answer() {
-    return (firstLetter > secondLetter ? `after` : `befor`);
-  }
+// function answer() {
+//     return (firstLetter > secondLetter ? `after` : `befor`);
+//   }
 
- console.log(`the letter` + " " + letter1 + " " + "is" + " " + answer() + " " +
- "the letter" + " " + letter2 + " " + "in the alphabet")
+//  console.log(`the letter` + " " + letter1 + " " + "is" + " " + answer() + " " +
+//  "the letter" + " " + letter2 + " " + "in the alphabet")
 
 
 console.log(`----------excercise 4------`)
