@@ -1,27 +1,32 @@
 console.log(`----------exercise 1------`)
 /*
 1. Pedir 2 numeros al usuario y mostrar en consola el resultado de aplicar
-todas las peraciones aritemeticas entre esos dos numeros
+todas las operaciones aritemeticas entre esos dos numeros
+*/
+/*
+parseInt() changes a string into a number
+Number() you can also use this method to change a string into a number
 */
 
-// parseInt changes a string into a number or integer
 // let number1 = parseInt(prompt(`type in any number`));
-// let number2 = parseInt(prompt(`type in a second number`));
-// console.log(`you chose the numbers` + " " + number1 + " " + "and" + " " + number2)
+// let number2 = Number(prompt(`type in a second number`));
 
-// let answer1 = number1 + number2
-// let answer2 = number1 - number2
-// let answer3 = number1 * number2
-// let answer4 = number1 ** number2
-// let answer5 = number1 / number2
-// let answer6 = number1 % number2
+// console.log(`you chose the numbers` + " " + number1 + " " + "and" + " " +
+// number2);
 
-// console.log(number1+ " " + "+" + " " + number2 + " " + "=" + " " + answer1)
-// console.log(number1+ " " + "-" + " " + number2 + " " + "=" + " " + answer2)
-// console.log(number1+ " " + "*" + " " + number2 + " " + "=" + " " + answer3)
-// console.log(number1+ " " + "**" + " " + number2 + " " + "=" + " " + answer4)
-// console.log(number1+ " " + "/" + " " + number2 + " " + "=" + " " + answer5)
-// console.log(number1+ " " + "%" + " " + number2 + " " + "=" + " " + answer6)
+// let answer1 = number1 + number2;
+// let answer2 = number1 - number2;
+// let answer3 = number1 * number2;
+// let answer4 = number1 ** number2;
+// let answer5 = number1 / number2;
+// let answer6 = number1 % number2;
+
+// console.log(number1+ " " + "+" + " " + number2 + " " + "=" + " " + answer1);
+// console.log(number1+ " " + "-" + " " + number2 + " " + "=" + " " + answer2);
+// console.log(number1+ " " + "*" + " " + number2 + " " + "=" + " " + answer3);
+// console.log(number1+ " " + "**" + " " + number2 + " " + "=" + " " + answer4);
+// console.log(number1+ " " + "/" + " " + number2 + " " + "=" + " " + answer5);
+// console.log(number1+ " " + "%" + " " + number2 + " " + "=" + " " + answer6);
 
 
 console.log(`----------exercise 2------`)
@@ -32,7 +37,7 @@ que el segundo
 
 // let number1 = parseInt(prompt(`type in any number`));
 // let number2 = parseInt(prompt(`type in a second number`));
-// let answer = number1 > number2
+// let answer = number1 > number2;
 
 // console.log(`is` + " " + number1 + " " + ">" + " " + number2 + " " + answer)
 
@@ -43,24 +48,27 @@ pedir al usuario dos letras, y determinar si la primera aparece antes o despues
 en el alfabeto
 */
 
-// let letter1 = prompt(`type in a letter`)
-// let letter2 = prompt(`type in a second letter`)
+// let letter1 = prompt(`type in a letter`);
+// let letter2 = prompt(`type in a second letter`);
+
 // console.log(`the two letters you chose were` + " " + letter1 + " " + "and" + 
-// " " + letter2)
+// " " + letter2);
 
 // .charCodeAt gives the number value in the UTF (ASCII) Table
 // .charCodeAt(index in string)
-// firstLetter = letter1.toLocaleLowerCase().charCodeAt(0) - 96
-// secondLetter = letter2.toLocaleLowerCase().charCodeAt(0) - 96
+
+// firstLetter = letter1.toLocaleLowerCase().charCodeAt(0) - 96;
+// secondLetter = letter2.toLocaleLowerCase().charCodeAt(0) - 96;
 
 // ternary operator: short way to write a simple if els block
 // ternary operator: variable_name(conition) ? value_if_true : value_if_false
-// function answer() {
-//     return (firstLetter > secondLetter ? `after` : `befor`);
-//   }
+
+// function answer(firstLeter, secondLetter) {
+//     return (firstLetter > secondLetter ? `after` : `before`);
+//   };
 
 //  console.log(`the letter` + " " + letter1 + " " + "is" + " " + answer() + " " +
-//  "the letter" + " " + letter2 + " " + "in the alphabet")
+//  "the letter" + " " + letter2 + " " + "in the alphabet");
 
 
 console.log(`----------excercise 4------`)
@@ -72,6 +80,20 @@ pedir 2 variables por promot:
     Imprimir el resultado en consola
 */
 
+// let number1 = Number(prompt(`type any number`));
+// let number2 = Number(prompt(`type a second number`));
+
+// console.log(`you chose the numbers` + " " + number1 + " " + "and" + " " +
+// number2);
+
+// if(number1 > number2) {
+//     console.log(number1 / number2);
+// } else if (number1 === number2) {
+//      console.log(number1 * number2);
+// } else {
+//     console.log(number1 + number2);
+// }
+
 
 
 console.log(`----------exercise 5------`)
@@ -79,6 +101,16 @@ console.log(`----------exercise 5------`)
 Pedir al usuario por prompt un numero entre 1 y 100
     -verivicar si es nu par o impar e emprimir en resultado en consola
 */
+
+// let number1 = Number(prompt(`type any number between 0 and 100`))
+
+// console.log(`you chose the number` + " " + number1);
+
+// if(number1 % 0) {
+//     console.log(`the number` + " " + number1 + " " + "is an even number");
+// } else {
+//     console.log(`the number` + " " + number1 + " " + "is an odd number");
+// }
 
 
 console.log(`----------exercise 6------`)
@@ -88,6 +120,23 @@ Pedir al usuario 2 numeros
     -Imprimir en consola cual es el mayor de los dos
 */
 
+// let number1 = Number(prompt(`type any number`));
+// let number2 = Number(prompt(`type a second number`));
+
+// console.log(`you chose the numbers` + " " + number1 + " " + "and" + " " +
+// number2);
+
+// if(number1 > number2) {
+//     console.log(`the number` + " " + number1 + " " +
+//     `is the larger of the two numbers`);
+//     console.log(`the number` + " " + number2 + " " +
+//     `is the lesser of the two numbers`);
+// } else {
+//     console.log(`the number` + " " + number1 + " " +
+//     `is the lesser of the two numbers`);
+//     console.log(`the number` + " " + number2 + " " +
+//     `is the larger of the two numbers`);
+// }
 
 
 console.log(`----------exercise 7------`)
