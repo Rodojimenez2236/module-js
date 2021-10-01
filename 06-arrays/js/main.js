@@ -1,124 +1,121 @@
+// let arrayKoders = [
+//     "Paco", 
+//     "Clau",
+//     "Fanny",
+//     "Nancy",
+//     "Pablo"
+// ]
 
-/*
-let someArray = [ ]
-    "sting"
-    "true or false"
-    "function () {}"
-    "names"
-    [  ]
-*/
+/* Hola, mi nombre es ${nombre} */
 
-//let arrayKoders = [
-//    "Paco",
-//    "Clau",
-//    "Fanny",
-//    "Nancy",
-//    "Pablo",
-//]
+for(let i=0; i< arrayKoders.length; i++) {
+    console.log(`Hola, Mi nombre es ${arrayKoders[i]}`)
+}
 
-/* Hola, mi nombre es ${nombre
+console.log(arrayKoders)
+/* Métodos de array */
 
-//for (let i = 0; i < arrayKoders.length; i++) {
-//    console.log (`Hola, Mi nombre es ${arrayKoders[i]}`)
-//}
-
-//console.log (arrayKoders)
-
-/*Metodos de array */
 /*
 .push()  Agrega uno o mas items al final del array
 */
-//arrayKoders.push("Emi", "Pao", "Mike")
 
-//console.log (arrayKoders)
+arrayKoders.push("Emi", "Pao", "Mike")
 
-/*
-.pop () removes the last item in the array,
-and gives the item that was removed
-*/
-
-//console.log(arrayKoders.pop())
+console.log(arrayKoders)
 
 /*
-.reverse () gives the list of items in array
-from last to first
+.pop() Remueve el ultimo item del array y 
+devuelve el item removido
 */
 
-//console.log(arrayKoders.reverse())
+arrayKoders.pop()
+console.log(arrayKoders)
+
+
 
 /*
-array.shift () removes the first item in the array,
-and gives the item that was removed
+.shift() Remueve el primer item del array y 
+devuelve el item removido
 */
 
-//console.log(arrayKoders.shift())
+arrayKoders.shift()
+console.log(arrayKoders)
 
 /*
-array.unshift () adds an item to the start of the array
+.reverse() Invierte al array, modificando al array original
 */
-
-//console.log(arrayKoders.unshift("Hiram"))
 
 /*
-array.concat () adds items to the array
+.unshift() agrega un item al inicio del array,
+y devuelve la longitud del array
 */
-
-//let arrayKoders10ma = ["Cintia", "JuanPi", "Vero"]
-//let arrayAllKoders = arrayKoders.concat(arrayKoders10ma)
-//console.log (arrayAllKoders)
 
 /*
-.splice (index, howmany, items..., itemN)
-arrayAllKoders.splice(2,2)
-arrayAllKoders.splice(4,1,"Pablo", "Nancy")
-arrayAllKoders.splice(2, 0, "Paco")
+.concat() concatenar uno o más arrays
 */
 
-// Ejercicio 1:
 
-/* crear funcion que permita indicar la cantidad de koders a guardar,
-que pida tantos nombres completos de koders como se haya indicado,
-y que imprima el nombre del koder y su numero asignado.
+let arrayKoders10ma = ["Cintia", "JuanPi", "Vero"]
 
+let arrayAllKoders = arrayKoders.concat(arrayKoders10ma)
+
+console.log(arrayAllKoders)
+
+/*
+.splice(index, howmany, items.., itemN)
+index-> Selecciona el indice de un item en el array
+howmany -> Cuantos elementos se eliminaran a partir del indice
+items -> Items a agregar a partir del indice indicado
+Regresa -> los items removidos
+*/
+
+
+/*
+Ejercicio 1:
+Crear funcion que permita indicar la cantidad de koders a guardar,
+que pida tantos nombre completos de koders como se haya indicado, y 
+que imprima el nombre del koder y su numero asignado.
 Ejemplo:
-input
-    Emi de Leon
-    Elias Herrera
-    Armando Rios
-
-output:
+input   
+   - Emi de Leon
+   - Elias Herrera
+   - Armando Rios
+output: 
     koder 1: Emi de Leon
     koder 2: Elias Herrera
     koder 3: Armando Rios
 */
 
+/*
+A partir del ejercicio anterior:
+Crear una funcion que permita saber el nombre de algun koder
+basado en su numero asignado
+- imprimir la lista de koders en orden alfabetico descendiente
+- Crear una nueva lista que contenga los nombres de los koders
+  con la siguiente estructura
+  [
+      "koder 1: Emi de Leon (E. D. L.)"
+      "koder 2: Elias Herrera (E. H.)"
+      "koder 3: Armando Rios (A. R.)"
+  ]
+- Permitir agregar un koder en alguna posicion deseada, 
+  por ejemplo: "Fanny Alvarez, lugar 3"
+*/
 
-
-//ask how many koder names you will be adding
-//save to a veriable
-//ask for indivisual koder names
-// use for until the number specified
-
-
-let n = prompt('how many names would you like to input')
-
-for (let i=4; i=n; i ++) {
-    let name= ('type koders name')
-    arrayKoderNames.push[name]
-    console.log(arrayKoderNames)
-}
-
-console.log(arrayKoderNames)
-
-let arrayKoderNames = [
+const arrayKoders = [
+  "Fanny Alvarez",
+  "Elias Herrera",
+  "Kraken Perez Salinas",
+  "Clau Rodriguez"
 ]
 
+function addKoder() {
+  let koder = prompt("Agrega el nombre del koder")
+  arrayKoders.push(koder)
+}
 
-
-
-//arrayKoderNames.push =
-
-
-
-
-
+function printKoders() {
+  for(let i = 0; i < arrayKoders.length; i++) {
+    console.log(`koder ${i + 1}: ${arrayKoders[i]}`)
+  }
+}
