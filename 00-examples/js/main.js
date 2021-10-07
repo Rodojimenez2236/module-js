@@ -208,15 +208,19 @@ for/of   - loops through the values of an iterable object
 
 
 
-console.log(`-----------while-Example 1-------------`)
 
-/*while (condition) {
+
+console.log(`-----------while-loops-------------`)
+
+/*The while loop loops through a block of code as long as a specified condition is true.
+
+while (condition) {
     Statement;
     "
     "
 }*/
 
-// Exp 1:
+console.log(`-----------while-Example 1-------------`)
 
 age = 5;
 
